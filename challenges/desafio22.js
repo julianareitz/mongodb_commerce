@@ -26,4 +26,4 @@ db.produtos.find({}, {
   nome: 1,
   vendasPorDia: 1,
   _id: 0
-})
+});

@@ -6,7 +6,7 @@ db.produtos.updateOne({
       $type: "timestamp"
     }
   }
-}, )
+}, );
 
 db.produtos.find({
   ultimaModificacao: {
@@ -15,4 +15,4 @@ db.produtos.find({
 }, {
   nome: 1,
   _id: 0
-})
+});
