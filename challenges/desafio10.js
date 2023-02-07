@@ -6,4 +6,4 @@ db.produtos.find({
                       $lte: 40 },
       } } },
   { nome: 1,
-    _id: 0 } );
+    _id: 0 });
